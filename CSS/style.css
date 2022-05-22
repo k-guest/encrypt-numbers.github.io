@@ -1,0 +1,151 @@
+:root {
+    --font-style: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    --color-blue: #3243DC;
+    --color-grey: #E9E9E9;
+}
+
+.website-picture {
+    width: 17.5rem;
+}
+
+.navbar-collapse {
+    justify-content: flex-end !important;
+}
+
+#project {
+    text-align: center;
+}
+
+.card {
+    border: none !important;
+}
+
+.first-collection {
+    color: var(--color-blue);
+    font-weight: bold;
+}
+
+.concept {
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.product {
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.link-collection {
+    background-color: var(--color-blue);
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.link-collection:hover {
+    color: white;
+    font-size: 1.05rem;
+}
+
+.project-picture {
+    margin-top: 2rem;
+}
+
+.section-title {
+    font-size: var(--font-style);
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+#about {
+    background-color: var(--color-grey);
+    padding-bottom: 2rem;
+}
+
+.about-card-text {
+    background-color: var(--color-grey);
+}
+
+.card-body {
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 900px) {
+    .card-body {
+        margin-right: 1rem !important;
+    }
+
+    .about-picture {
+        width: 102.5% !important;
+        border-radius: 10px;
+        padding-top: 0 !important;
+    }
+}
+
+@media screen and (min-width: 0px) {
+    .card-body {
+        margin-right: 0;
+    }
+
+    .about-picture {
+        width: 100%;
+        border-radius: 10px;
+        padding-top: 1rem;
+    }
+}
+
+.card-text {
+    font-weight: 600;
+}
+
+.about-card-picture {
+    background-color: var(--color-grey);
+}
+
+.about-picture {
+    background-color: var(--color-grey);
+}
+
+#design {
+    padding-bottom: 2rem;
+}
+
+.design-collection {
+    color: var(--color-blue);
+    font-weight: bold;
+    text-align: center;
+}
+
+#roadmap {
+    background-color: black;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.list-group-item {
+    background-color: black;
+    color: white;
+}
+
+.roadmap-time {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #444444;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer > p {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding-top: 1.5rem;
+    margin-bottom: 0 !important;
+}
